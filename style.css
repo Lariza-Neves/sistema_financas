@@ -1,22 +1,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,800;1,800&display=swap');
 body{
-    margin: 0; /* pra nulificar a margem que altomaticamente é 8 formando uma borda laranja*/
+    margin: 0; 
     font-family: 'Nunito', sans-serif;
 }
-.main-login{ /*div maior*/
-    width: 100vw; /*vw é porcentagem de largura da tela td*/
-    height: 100vh; /*vh é a porcentagem de altura da tela td*/
-    background: #C3CBE0; /* cor de fundo*/
-    display: flex; /* organiza os elementos filhos na tela, no cado um do lado do outro*/
-    justify-content: center; /*centraliza no eixo X*/
-    align-items: center; /*centraliza no eixo Y*/
+.main-login{ 
+    width: 100vw; 
+    height: 100vh;
+    background: #C3CBE0; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
 }
-/*justify-content= eixo x, align-items= eixo y */
+
 
 .left-login{
-    width: 50vw; /*50% da largura*/
-    height: 100vh; /*100% da altura*/
+    width: 50vw; 
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,19 +48,18 @@ body{
     flex-direction: column;
     padding: 30px 35px;
     background: #a28ec0; 
-    border-radius: 20px; /* pra colocar a borda redonda */
-    box-shadow: 0px 10px 40px rgb(0, 0, 0); /* sombra: primeiro- define se vai pra direita ou esquerda, 
-    ja no segundo- y  e cima ou baixo negativo=cima e positivo=baixa, terceiro valor=blãr */
+    border-radius: 20px; 
+    box-shadow: 0px 10px 40px rgb(0, 0, 0); 
 }
-.card-login >h1{ /* cor do titudo do card login*/
+.card-login >h1{ 
     color: #ffffff; 
-    font-weight: 0; /*margem*/
+    font-weight: 0; 
 }
  
-.textfield{ /* class q emgloba tanto o label quanto o imput*/
+.textfield{
     width: 100%;
     display: flex;
-    flex-direction: column; /*quando usa o flex-direction o justify-content= eixo y, align-items= eixo x ou seja inverte*/
+    flex-direction: column; 
     align-items: flex-start;
     justify-content: center;
     margin: 10px 0px;
